@@ -1,0 +1,94 @@
+.about {
+    margin-top: 75px;
+
+    &_img {
+       width: 100%;
+    }
+
+    &_row {
+        border-bottom: 1px solid #33323D;
+        width: 100%;
+        margin-top: 32px;
+        
+        opacity: 0.15;
+    }
+
+    h2 {
+        font-family: 'Ibarra Real Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+        margin-top: 32px;
+    }
+
+    &_text {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        text-align: left;
+        margin-top: 28px;
+    }
+
+    &_link {
+        margin-top: 41px;
+
+        &_click {
+            padding: 17px 35px;
+            border: 1px solid #33323D;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #33323D;
+
+        }
+    }
+
+    &_row2 {
+        margin-top: 51px;
+        margin-bottom: auto;
+    }
+}
+
+.about_link_click {
+    transition: 0.5s ease-in-out;
+}
+
+.about_link_click:hover {
+    background-color: #33323D;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        display: flex;
+        justify-content: space-between;
+        &_img {
+        width: auto;
+        }
+        &_text{
+        color: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        text-align: left;
+        width: 339px;
+        }
+        div{
+            padding-left: auto;
+        }
+        &_row{
+display: block;
+        }
+    }
+}
